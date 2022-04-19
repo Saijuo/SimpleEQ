@@ -61,11 +61,11 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="5" x="0.29875" y="0.5383064516129032" uiLastX_Normal="2160"
+  <FILTER uid="5" x="0.59" y="0.6532258064516129" uiLastX_Normal="2160"
           uiLastY_Normal="-267" uiopen_Normal="0">
     <PLUGIN name="SimpleEQ" format="VST3" category="Fx" manufacturer="yourcompany"
             version="1.0.0" file="D:\Programming\SimpleEQ\Builds\VisualStudio2022\x64\Debug\VST3\SimpleEQ.vst3"
-            uniqueId="f99adc24" isInstrument="0" fileTime="1803ecab86a" infoUpdateTime="1803ed2925f"
+            uniqueId="f99adc24" isInstrument="0" fileTime="18042a27bae" infoUpdateTime="18042b6b6a8"
             numInputs="2" numOutputs="2" isShell="0" uid="e9569164"/>
     <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
     <LAYOUT>
@@ -93,8 +93,24 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
+  <FILTER uid="7" x="0.6675" y="0.3649193548387097" uiLastX_Normal="442"
+          uiLastY_Normal="44" uiopen_Normal="1">
+    <PLUGIN name="vstPlayer" format="VST3" category="Instrument|Synth" manufacturer="yourcompany"
+            version="2.3.4" file="D:\Programming\vstPlayer\vstPlayer\v2.3.4\x64\vstPlayer.vst3"
+            uniqueId="8fdefd46" isInstrument="1" fileTime="17ad7837ae0" infoUpdateTime="18042b6b6a8"
+            numInputs="0" numOutputs="0" isShell="0" uid="ee63cfc"/>
+    <STATE>860.VMjLgL0....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9TiMw3hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtfDTFYTR5AkaA4hKtfjYikWTGIlKHYmKD4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAQjaUMTRSgzMD4hKtXWdOMCLFElYXcUV30zUZUGMV8DZDk1R1gjPHsFMwfUcQYkVzMlUOgFUEUkQvHjSncSZOYlcCE1YMczXlQ0UZc0ZFkkdmY0SnY1PLYGRBgDLqYjTqsVLY4VTW8DZTMDS1gjPHY2cVgEM2YkV4EkLSQGLogzcHIDR3UkQhsVQFMFNHIDSn4BZiU2cVM1bUY0Sn4RZKYGQS4DMTkFSwfzTLkGQCwDMPMkS4wTZHYlKWgELMcUVpASZHYGRn8zMtbTXms1Qg8VSGMVN1kVVucmUYY1LVg0bUY0SnwjZNIVUvH1ZIIiXhcFQTY1MTE1ZzXzUDgSLXACLVkEcQIiXh0DLgAycwH1ZUEiVlAkdgICMFEVcEYTV4cGLXUGLFIlbUYzXqc2ZhUGNFElXQolTl4RUXQSPWgkbAI0RlAkZhc1bVkkYTQTVuEkLhYFVvDlbzHDR3YWQQoTPBQ0YqcjXmcmQHMmKBEEdEEiVqEjTQo1ZFMVdAgVU0cGaKYFRCgzbtHES24hPT0DMRElcMkFR0MyPOUmKGE1YqcTXu0zQikic4sjbEEiX5QyPt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
   <CONNECTION srcFilter="5" srcChannel="0" dstFilter="3" dstChannel="0"/>
   <CONNECTION srcFilter="5" srcChannel="1" dstFilter="3" dstChannel="1"/>
-  <CONNECTION srcFilter="6" srcChannel="0" dstFilter="5" dstChannel="0"/>
-  <CONNECTION srcFilter="6" srcChannel="1" dstFilter="5" dstChannel="1"/>
+  <CONNECTION srcFilter="7" srcChannel="0" dstFilter="5" dstChannel="0"/>
+  <CONNECTION srcFilter="7" srcChannel="1" dstFilter="5" dstChannel="1"/>
 </FILTERGRAPH>
